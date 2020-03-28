@@ -1,0 +1,156 @@
+header{
+    background-color: aquamarine;
+    border: 4px solid black;
+    padding: 3px 3px;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+body nav ul{
+    font-family: sans-serif;
+    background-color: coral;
+    color:aliceblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /*sticky nav bar*/
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+body nav li{
+    float: left;
+}
+
+body nav li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    
+}
+
+body nav li a:hover{
+    background-color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    align-items: flex-end;
+    flex-flow: row wrap;
+}
+
+.container-2{
+    display: flex;
+    flex-flow: row wrap;
+    /*Push the box right*/
+    justify-content: flex-end;
+}
+
+.container-3{
+    display: flex;
+    flex-flow: row wrap;
+    /*justify-content: flex-start;(Push the box left) */
+    /*Creating space around the flex box*/    
+    justify-content: space-around;
+}
+
+.container-4{
+    display: flex;
+    flex-flow: row wrap;
+    /*justify-content: flex-start;(Push the box left) */
+    /*Creating space around the flex box*/    
+    justify-content: space-between;
+}
+
+.container div, .container-2 div, .container-3 div, .container-4 div{
+    border: 2px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+}
+
+.exmp{
+    flex: 2;
+    order: 2;
+    background-color: antiquewhite;
+}
+
+.exmp1{
+    flex: 1;
+    order: 1;
+    background-color: aqua;
+}
+
+.exmp2{
+    flex: 1;
+    order: 3;
+    background-color: azure;
+}
+
+.exmp3{
+    background-color: beige;
+}
+
+.exmp4{
+    background-color: coral;
+}
+
+.exmp5{
+    background-color: cyan;
+}
+
+.exmp6{
+    background-color: darkred;
+}
+
+.exmp7{
+    background-color: dimgray;
+}
+
+.exmp8{
+    background-color: fuchsia;
+}
+
+.exmp9{
+    background-color: gray;
+}
+
+.exmp10{
+    background-color: orange;
+}
+
+.exmp11{
+    background-color: teal;
+}
+
+footer{
+    background-color: salmon;
+    border: 1px solid black;
+    display:block;
+    text-align: end;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:visited{
+    color:red;
+}
+
+a:hover{
+    color: white;
+}
+
+a:active{
+    color: khaki;
+}
+
